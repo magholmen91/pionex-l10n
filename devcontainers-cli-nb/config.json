@@ -1,33 +1,38 @@
 {
-  "language": {
+  "languageConfig": {
     "id": "nb",
     "name": "Norsk Bokmål",
     "nativeName": "Norsk Bokmål",
-    "englishName": "Norwegian Bokmål"
-  },
-  "localization": {
-    "languageCode": "nb",
-    "languageName": "Norsk Bokmål",
-    "translationCount": 22,
-    "formatVersion": "1.0.0",
-    "status": "active",
-    "dataIntegrity": "valid",
-    "charsetSupport": "UTF-8",
-    "pluralRules": "Norwegian (Bokmål)"
-  },
-  "source": {
-    "name": "devcontainers/cli",
-    "url": "https://github.com/devcontainers/cli",
-    "branch": "main"
-  },
-  "translator": {
-    "username": "magholmen91",
-    "github": "https://github.com/magholmen91"
+    "englishName": "Norwegian Bokmål",
+    "version": "1.0.0",
+    "description": "Norwegian Bokmål translation for Dev Container CLI",
+    "rtl": false,
+    "pluralRules": "nb"
   },
   "metadata": {
-    "version": "1.0.0",
-    "createdAt": "2026-06-19",
-    "updatedAt": "2026-06-26",
-    "isValidated": true
+    "author": "magholmen91",
+    "authorUrl": "https://github.com/magholmen91",
+    "lastUpdated": "2026-06-26",
+    "sourceRepository": "https://github.com/devcontainers/cli",
+    "sourceVersion": "main",
+    "license": "MIT",
+    "compatibleWith": [
+      "Pionex 1.0+",
+      "devcontainers/cli"
+    ]
+  },
+  "loadingStrategy": {
+    "primary": "translations.json",
+    "fallback": "language.json",
+    "cache": true,
+    "cacheDuration": 3600
+  },
+  "validation": {
+    "schema": "1.0",
+    "requiredFields": [
+      "translations",
+      "language"
+    ],
+    "strictMode": true
   }
 }

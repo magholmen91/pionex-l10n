@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pionex Custom Language Schema",
+  "description": "JSON Schema for validating Pionex custom language files",
+  "type": "object",
+  "required": [
+    "language",
+    "translations"
+  ],
+  "properties": {
+    "language": {
+      "type": "object",
+      "required": [
+        "name",
+        "code",
+        "nativeName",
+        "englishName"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Language name"
+        },
+        "code": {
+          "type": "string",
+          "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+          "description": "ISO 639-1 language code (e.g., 'nb', 'en-US')"
+        },
+        "nativeName": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Language name in native language"
+        },
+        "englishName": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Language name in English"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Source project name"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Source repository URL"
+        },
+        "branch": {
+          "type": "string",
+          "description": "Source branch"
+        }
+      }
+    },
+    "translator": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string",
+          "description": "Translator username"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri",
+          "description": "Translator GitHub profile"
+        }
+      }
+    },
+    "translations": {
+      "type": "object",
+      "properties": {
+        "translations": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Translation key-value pairs"
+        }
+      },
+      "required": [
+        "translations"
+      ]
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date (YYYY-MM-DD)"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "inactive",
+        "deprecated",
+        "beta"
+      ],
+      "description": "Language pack status"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version (e.g., 1.0.0)"
+    }
+  }
+}
