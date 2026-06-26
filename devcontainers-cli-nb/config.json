@@ -1,0 +1,33 @@
+{
+  "language": {
+    "id": "nb",
+    "name": "Norsk Bokmål",
+    "nativeName": "Norsk Bokmål",
+    "englishName": "Norwegian Bokmål"
+  },
+  "localization": {
+    "languageCode": "nb",
+    "languageName": "Norsk Bokmål",
+    "translationCount": 22,
+    "formatVersion": "1.0.0",
+    "status": "active",
+    "dataIntegrity": "valid",
+    "charsetSupport": "UTF-8",
+    "pluralRules": "Norwegian (Bokmål)"
+  },
+  "source": {
+    "name": "devcontainers/cli",
+    "url": "https://github.com/devcontainers/cli",
+    "branch": "main"
+  },
+  "translator": {
+    "username": "magholmen91",
+    "github": "https://github.com/magholmen91"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "createdAt": "2026-06-19",
+    "updatedAt": "2026-06-26",
+    "isValidated": true
+  }
+}
