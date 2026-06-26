@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "version": "1.0.0",
+    "language": "nb",
+    "name": "Norwegian Bokmål - Dev Container CLI",
+    "description": "Norwegian Bokmål translation of Dev Container CLI documentation and interface strings",
+    "author": "magholmen91",
+    "homepage": "https://github.com/magholmen91/pionex-l10n",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/magholmen91/pionex-l10n.git",
+      "directory": "devcontainers-cli-nb"
+    },
+    "files": [
+      "README.md",
+      "language.json",
+      "translations.json"
+    ],
+    "keywords": [
+      "norwegian",
+      "bokmål",
+      "localization",
+      "l10n",
+      "devcontainers",
+      "cli"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-06-19",
+    "maintainer": {
+      "name": "magholmen91",
+      "github": "magholmen91"
+    }
+  }
+}

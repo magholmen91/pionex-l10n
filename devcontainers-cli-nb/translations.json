@@ -1,0 +1,24 @@
+{
+  "translations": {
+    "title": "Dev Container CLI",
+    "context": "Kontekst",
+    "tryItOut": "Prøv det ut",
+    "installScript": "Installasjonsskript",
+    "npmInstall": "npm install",
+    "tryOutTheCli": "Prøv CLI-en",
+    "moreCliExamples": "Flere CLI-eksempler",
+    "buildFromSources": "Bygg fra kilder",
+    "specification": "Spesifikasjon",
+    "additionalResources": "Tilleggsressurser",
+    "documentation": "Dokumentasjon",
+    "contributing": "Bidrag",
+    "license": "Lisens",
+    "currentStatus": "Nåværende status",
+    "commands": "Kommandoer",
+    "options": "Alternativer",
+    "preRequisites": "Forutsetninger",
+    "toolExamples": "Verktøyeksempler",
+    "ciEnvironment": "CI-byggmiljø",
+    "buildingImage": "Bygge bilde fra devcontainer.json"
+  }
+}

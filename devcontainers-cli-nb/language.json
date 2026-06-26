@@ -1,0 +1,20 @@
+{
+  "language": {
+    "name": "Norsk Bokmål",
+    "code": "nb",
+    "nativeName": "Norsk Bokmål",
+    "englishName": "Norwegian Bokmål"
+  },
+  "source": {
+    "name": "devcontainers/cli",
+    "url": "https://github.com/devcontainers/cli",
+    "branch": "main"
+  },
+  "translator": {
+    "username": "magholmen91",
+    "github": "https://github.com/magholmen91"
+  },
+  "lastUpdated": "2026-06-19",
+  "status": "active",
+  "version": "1.0.0"
+}
