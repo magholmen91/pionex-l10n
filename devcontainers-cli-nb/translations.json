@@ -1,6 +1,7 @@
 {
   "translations": {
     "title": "Dev Container CLI",
+    "description": "CLI for dev containers",
     "context": "Kontekst",
     "tryItOut": "Prøv det ut",
     "installScript": "Installasjonsskript",
@@ -19,6 +20,9 @@
     "preRequisites": "Forutsetninger",
     "toolExamples": "Verktøyeksempler",
     "ciEnvironment": "CI-byggmiljø",
-    "buildingImage": "Bygge bilde fra devcontainer.json"
+    "buildingImage": "Bygge bilde fra devcontainer.json",
+    "language": "Språk",
+    "version": "Versjon",
+    "updated": "Oppdatert"
   }
 }
