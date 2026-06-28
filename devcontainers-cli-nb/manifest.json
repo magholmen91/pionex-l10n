@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "1.0.0",
-    "language": "nb",
+    "language": "no",
     "name": "Norwegian Bokmål - Dev Container CLI",
     "description": "Norwegian Bokmål translation of Dev Container CLI documentation and interface strings",
     "author": "magholmen91",
@@ -26,6 +26,7 @@
     ],
     "license": "MIT",
     "createdAt": "2026-06-19",
+    "updatedAt": "2026-06-28",
     "maintainer": {
       "name": "magholmen91",
       "github": "magholmen91"
